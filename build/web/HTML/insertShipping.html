@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+               <form action="../ShippingURL" method="post">
+            <input type="hidden" name="service" value="insertShipping">
+            
+      <table>
+        <caption>
+          INSERT SHIPPING
+        </caption>
+
+        <tr>
+          <td><label for="ShippingID">ShippingID</label></td>
+          <td>
+            <input type="text" name="ShippingID" id="ShippingID" readonly />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Name">Name</label></td>
+          <td><input type="text" name="Name" id="Name" /></td>
+        </tr>
+
+        <tr>
+          <td><label for="Price">Price</label></td>
+          <td><input type="text" name="Price" id="Price" /></td>
+        </tr>
+
+       
+
+        <tr>
+          <td><input type="submit" name="submit" value="INSERT SHIPPING"></td>
+          <td><input type="reset" value="clear"></td>
+        </tr>
+
+
+      </table>
+    </form>
+
+
+            
+        </div>
+    </body>
+</html>

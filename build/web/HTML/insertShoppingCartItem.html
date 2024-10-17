@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <form action="../ShoppingCartItemURL" method="post">
+            <input type="hidden" name="service" value="insertCartItem">
+            
+      <table>
+        <caption>
+         INSERT CART ITEM
+        </caption>
+
+        <tr>
+          <td><label for="Cart_ItemID">Cart_ItemID</label></td>
+          <td>
+            <input type="text" name="Cart_ItemID" id="Cart_ItemID" readonly />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Quantity">Quantity</label></td>
+          <td><input type="text" name="Quantity" id="Quantity" /></td>
+        </tr>
+
+       
+        <tr>
+          <td><label for="ProductID">ProductID</label></td>
+          <td><select name="ProductID" id="ProductID">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+
+          </select></td>
+
+      
+        <tr>
+          <td><label for="Shipping_CartID">Shipping_CartID</label></td>
+          <td><select name="Shipping_CartID" id="Shipping_CartID">
+             <option value="1">1</option>
+             <option value="2">2</option>
+             <option value="3">3</option>
+
+          </select></td>
+         
+
+        <tr>
+          <td><input type="submit" name="submit" value="INSERT CART ITEM"></td>
+          <td><input type="reset" value="clear"></td>
+        </tr>
+
+
+      </table>
+    </form>
+
+
+            
+            
+            
+        </div>
+    </body>
+</html>
